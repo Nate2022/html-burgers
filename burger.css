@@ -1,38 +1,73 @@
-<html>
+.bun-top {
+  height: 70px;
+  width: 60%;
+  background: #e5b05a;
+  border-radius: 100px 100px 20px 20px;
+  border-bottom: solid 10px rgba(0,0,0,.1);
+}
 
-<head>
-    <title>Build-a-Burger</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="ingredients.css">
-</head>
+.cheese {
+  height: 15px;
+  width: 65%;
+  background: #f2c120;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
 
-<body>
+.tomato {
+  height: 25px;
+  width: 50%;
+  background-color: #dd3710;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
 
-    <h1>The Best Burger</h1>
-    <h2>Only $9.99</h2>
+.meatball {
+  height: 60px;
+  width: 70px;
+  background: #74380d;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
 
-    <!-- 
-    Rearrange the elements below to make your own custom burger. 
-    Change ingredient colors in the "ingredients.css" file.
-    -->
+.patty {
+  height: 35px;
+  width: 65%;
+  background: #ad370b;
+  border-radius: 15px;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
 
-    <div class="burger">
-        <div class="bun-top"></div>
-       <div class="ketchup"></div>
-        <div class="onion"></div>
-        <div class="pickle"></div>
-        <div class="tomato"></div>
-        <div class="cheese"></div>
-        <div class="cheese"></div>
-        <div class="cheese"></div>
-        <div class="cheese"></div> 
-        <div class="patty"></div>
-        <div class="patty"></div>
-        <div class="bun-bottom"></div>
-        <div class="plate"></div>
-    </div>
+.pickle {
+  height: 30px;
+  width: 50%;
+  background: #0c5706;
+  border-radius: 0 0 100px 100px;
+  border-bottom: solid 10px #073f0e;
+}
 
-</body>
+.onion {
+  width: 40%;
+  background-color: #bd97c7;
+  border-top: dotted 20px rgba(255,255,255,.2);
+}
 
-</html>
+.bun-bottom {
+  height: 35px;
+  width: 60%;
+  background: #e5b05a;
+  border-radius: 20px 20px 40px 40px;
+  border-top: solid 8px rgba(0,0,0,.1)
+}
+
+.plate {
+  height: 25px;
+  width: 80%;
+  background: #dd0b0b;
+  border-radius: 20px 20px 200px 200px;
+}
+.ketchup {
+  height: 10px;
+  width: 80%;
+  background: #dd0b0b;
+  border-radius: 20px 20px 10px 10px;
+}

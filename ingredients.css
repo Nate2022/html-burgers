@@ -40,14 +40,14 @@
 .pickle {
   height: 30px;
   width: 50%;
-  background: #3ac67d;
+  background: #0c5706;
   border-radius: 0 0 100px 100px;
-  border-bottom: solid 10px #2d9961;
+  border-bottom: solid 10px #073f0e;
 }
 
 .onion {
   width: 40%;
-  background-color: #a039bf;
+  background-color: #bd97c7;
   border-top: dotted 20px rgba(255,255,255,.2);
 }
 
@@ -62,6 +62,12 @@
 .plate {
   height: 25px;
   width: 80%;
-  background: #656565;
+  background: #b1a21a;
   border-radius: 20px 20px 200px 200px;
+}
+.ketchup {
+  height: 10px;
+  width: 80%;
+  background: #dd0b0b;
+  border-radius: 20px 20px 10px 10px;
 }
